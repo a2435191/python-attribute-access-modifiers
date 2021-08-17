@@ -67,3 +67,4 @@ class Test:
             self._a = a
     ```
 * The type of any variable "annotated" with `GET`, `SET`, or `DEL` is `_PropertyAccessModifierBase`. This means `mypy` support and IDE type hinting are most likely broken.
+* No tests
