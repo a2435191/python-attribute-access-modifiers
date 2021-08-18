@@ -40,3 +40,4 @@ class Test(PaamBase):
 ## Caveats (all planned to be fixed in future release)
 * The type of any variable "annotated" with `GET`, `SET`, or `DEL` is `_PropertyAccessModifierBase`. This means `mypy` support and IDE type hinting are most likely broken.
 * No tests
+* Error messages currently only show owner class
